@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
-/* font-family: 'Outfit', sans-serif; */
 
 :root {
   --white: hsl(0, 0%, 100%);
@@ -27,8 +26,6 @@ p {
   font-size: 15px;
 }
 .all-container {
-  /* max-width: 375px;
-  min-width: 375px; */
   width: 375px;
   margin: 0;
   position: absolute;
