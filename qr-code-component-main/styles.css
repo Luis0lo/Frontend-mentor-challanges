@@ -1,0 +1,35 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+body,
+html {
+  min-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--light-gray);
+}
+
+.all-container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+.inner-container {
+  /* margin: 2rem; */
+  padding: 2rem;
+  border-radius: 30px;
+  background-color: var(--white);
+}
+img {
+  width: 100%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
